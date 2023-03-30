@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview1"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageview1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/iphone14"
+                android:layout_width="150dp"
+                android:layout_height="150dp"></ImageView>
+            <LinearLayout
+                android:layout_toRightOf="@id/imageview1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textviewcar"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"
+                    android:text="Iphone 14 pro max"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></TextView>
+                <TextView
+                    android:id="@+id/textviewcardescription"
+                    android:layout_marginHorizontal="5dp"
+                    android:textSize="18dp"
+                    android:layout_toRightOf="@id/imageview1"
+                    android:text="Iphone 14 pro max 128 /6 Camera 48 mpx "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></TextView>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview2"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageview2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/iphone14"
+                android:layout_width="150dp"
+                android:layout_height="150dp"></ImageView>
+            <LinearLayout
+                android:layout_toRightOf="@id/imageview2"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textviewcar2"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"
+                    android:text="Iphone 14 pro max"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></TextView>
+                <TextView
+                    android:id="@+id/textviewcardescrioption2"
+                    android:layout_marginHorizontal="5dp"
+                    android:textSize="18dp"
+                    android:layout_toRightOf="@id/imageview1"
+                    android:text="Iphone 14 pro max 128 /6 Camera 48 mpx "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></TextView>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview3"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageview3"
+                android:scaleType="centerCrop"
+                android:src="@drawable/iphone14"
+                android:layout_width="150dp"
+                android:layout_height="150dp"></ImageView>
+            <LinearLayout
+                android:layout_toRightOf="@id/imageview3"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textviewcar3"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"
+                    android:text="Iphone 14 pro max"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></TextView>
+                <TextView
+                    android:id="@+id/textviewcardescrioption3"
+                    android:layout_marginHorizontal="5dp"
+                    android:textSize="18dp"
+                    android:layout_toRightOf="@id/imageview1"
+                    android:text="Iphone 14 pro max 128 /6 Camera 48 mpx "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></TextView>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
